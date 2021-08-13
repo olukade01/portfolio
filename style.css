@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+#navbar {
+  background: red;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  font-size: 22px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+}
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: maroon;
+}
+h1 {
+  font-size: 3.3rem;
+  margin-bottom: -1rem;
+}
+p {
+  font-size: 2rem;
+  font-style: italic;
+}
+#projects {
+  background: blue;
+  width: 100%;
+  margin-top: -33px;
+}
+#projects h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 5rem;
+  text-decoration: underline;
+}
+#project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* .project-title {
+  width: 10rem;
+} */
