@@ -33,9 +33,11 @@ a {
   background: black;
   color: maroon;
 }
+
 h1 {
   font-size: 3.3rem;
   margin-bottom: -1rem;
+  color: white;
 }
 p {
   font-size: 2rem;
@@ -45,6 +47,7 @@ p {
   background: blue;
   width: 100%;
   margin-top: -33px;
+  padding-bottom: 5rem;
 }
 #projects h1 {
   font-size: 40px;
@@ -54,9 +57,70 @@ p {
   text-decoration: underline;
 }
 #project {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
-/* .project-title {
-  width: 10rem;
-} */
+.upper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#lower {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+img {
+  width: 35rem;
+  height: 35rem;
+}
+
+.title {
+  width: 35rem;
+  height: 5rem;
+  background: black;
+  margin-left: 1.6rem;
+  color: white;
+  margin-top: -0.2rem;
+  padding-top: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+#contact {
+  background: grey;
+  text-align: center;
+  color: white;
+}
+.spans {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.spans :hover {
+  margin-top: 0.7rem;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+span {
+  margin: 0 1.5rem;
+  font-size: 2rem;
+}
+.bottom {
+  border-top: 5px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+.bottom-p {
+  font-size: 1.3rem;
+}
+.padd {
+  padding: 12rem 0;
+  height: 43rem;
+}
+.padd h1 {
+  font-size: 4.5rem;
+}
+.padd p {
+  font-size: 1.3rem;
+}

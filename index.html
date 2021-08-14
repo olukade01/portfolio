@@ -5,17 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>portfolio</title>
+    <title>Portfolio</title>
   </head>
   <body>
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
-
     <nav id="navbar">
       <li><a href="#welcome-section">About</a></li>
       <li><a href="#projects">Work</a></li>
       <li><a href="#contact">Contact</a></li>
     </nav>
-
     <section id="welcome-section">
       <h1>Hey I am Muzzammil</h1>
       <p>a web developer</p>
@@ -23,39 +20,70 @@
     <section id="projects">
       <h1>These are some of my projects</h1>
       <div id="project">
-        <project1 class="project-title"
-          ><a href="https://codepen.io/olukade/pen/ZEBjqJO"
-            ><img
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
-              alt="tribute page"
-          /></a>
-        </project1>
-        <project2 class="project-title"
-          ><a href="https://codepen.io/olukade/pen/mdOzpqE"
-            ><img
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
-              alt="documentation page" /></a
-        ></project2>
-        <project3 class="project-title"
-          ><a href="https://codepen.io/olukade/pen/mdOQjyL"
-            ><img
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg"
-              alt="product landing" /></a
-        ></project3>
-        <project4 class="project-title"
-          ><a href="https://codepen.io/olukade/pen/oNYQMLo"
-            ><img
-              src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png"
-              alt="survey form" /></a
-        ></project4>
+        <div class="upper">
+          <project1 class="project-title"
+            ><a href="https://codepen.io/olukade/pen/ZEBjqJO"
+              ><img
+                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
+                alt="tribute page"
+              />
+              <div class="title">Tribute Page</div>
+            </a>
+          </project1>
+
+          <project2 class="project-title"
+            ><a href="https://codepen.io/olukade/pen/mdOzpqE"
+              ><img
+                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
+                alt="product landing"
+              />
+
+              <div class="title">Product Landing</div>
+            </a>
+          </project2>
+        </div>
+
+        <div id="lower">
+          <project3 class="project-title"
+            ><a href="https://codepen.io/olukade/pen/mdOQjyL"
+              ><img
+                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg"
+                alt="documentation page"
+              />
+
+              <div class="title">Documentation Page</div>
+            </a>
+          </project3>
+
+          <project4 class="project-title"
+            ><a href="https://codepen.io/olukade/pen/oNYQMLo"
+              ><img
+                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png"
+                alt="survey form"
+              />
+              <div class="title">Survey Form</div>
+            </a>
+          </project4>
+        </div>
       </div>
     </section>
+
     <section id="contact">
-      <a
-        id="profile-link"
-        target="_blank"
-        href="https://github.com/freecodecamp"
-      ></a>
+      <div class="padd">
+        <h1>Let's work together...</h1>
+        <p>How do you take your coffee?</p>
+        <a target="_blank" href="https://github.com/olukade01" class="spans">
+          <span>Facebook</span><span>GitHub</span><span>Twitter</span
+          ><span>Send a mail</span><span>Call me</span>
+        </a>
+      </div>
+      <div class="bottom">
+        <p class="bottom-p">
+          **This is a work in progress portfolio. All the projects and contact
+          details given are subject to change.
+        </p>
+        <p class="bottom-p">© Created for Muzzammil</p>
+      </div>
     </section>
   </body>
 </html>
